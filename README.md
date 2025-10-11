@@ -10,6 +10,9 @@ Enter the directory: cd A
 
 Activate your virtual environment: source bin/activate
 
+git init
+git pull https://github.com/deba-cyber/custom_vqe.git
+
 Install : poetry install
 
 To run tests, for example in ansatz folder, 
