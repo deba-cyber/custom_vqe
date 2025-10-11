@@ -7,7 +7,12 @@ of strongly correlated systems.
 Create a virtual environment `A` preferably with virtualenv.
 
 Enter the directory: cd A
+
 Activate your virtual environment: source bin/activate
+
+Install : poetry install
+
+To run tests, for example in ansatz folder, run poetry run pytest tests/
 
 ## Support
 Currently, please email deba.bhat.90@gmail.com or debabratab@alum.iisc.ac.in for queries. In future, documentation will be released.
