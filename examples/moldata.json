@@ -1,0 +1,21 @@
+{
+	"geometry": ["Cartesian"],	
+	"atoms": ["H","H"],
+	"coord_details": [[0.0,0.0,0.0],
+	[2.0,0.0,0.0]],
+	"charge": [0],
+	"multiplicity": [1],
+	"symmetry": ["c2v"],
+	"symmetry_subgr": ["None"],
+	"basis": ["sto3g"],
+	"verbose": [0],
+	"single_exc": [2,2,"conserved"],
+	"double_exc": [2,2,"conserved"],
+	"double_exc_trunc": "False",
+	"qubit_mapper": ["JordanWignerMapper"],
+	"trotter_type": ["nosym"],
+	"trotter_order": [1],
+	"adapt-vqe": [1],
+	"optimizer": ["Nelder-Mead"],
+	"shots": [1024]
+}

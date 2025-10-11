@@ -1,0 +1,15 @@
+qiskit-version : 2.1.2
+Transpiling ...
+Electronic structure calculations details ...
+Driver: <class 'qiskit_nature.second_q.drivers.pyscfd.pyscfdriver.PySCFDriver'>
+Problem: <class 'qiskit_nature.second_q.problems.electronic_structure_problem.ElectronicStructureProblem'>
+Number of electrons : (10, 10)
+Number of spatial orbitals: 16
+Number of alpha electrons : 10
+Number of beta electrons : 10
+Nuclear repulsion energy in Hartree : 39.54956688573451 Ha
+Reference energy in Hartree : -110.91437129391905 Ha
+Gate counts : OrderedDict([('cx', 1001084), ('rz', 288895), ('sx', 196246), ('x', 1593)])
+Circuit depth : 1197442
+Number of parameters : 5070
+===========================================

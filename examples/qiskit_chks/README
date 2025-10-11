@@ -1,0 +1,28 @@
+# Running with qiskit implementation with UCCSD ansatz with Hartree-Fock reference state, 'sto3g' basis. 
+
+# the systems are defined in the examples/ folder with following default options:
+
+The circuit is generated without any reduction of excitations with minimal basis `sto3g`, i.e. which is 
+transpiled with a generic backend. This runs are for mainly for checking resource requirements in terms 
+of number of qubits, circuit depth etc. 
+
+For example, a file "h2.dat" has geometries for H2 molecule, the circuit details are saved in "h2_data"
+(the molecule filename is `molecule.dat` and datafile name is `molecule_data`.)
+
+
+# User options:
+    - "basis" in electronic structure calculation [default is kept `sto3g`]
+
+	- "FreezeCore" in electronic structure calculation [default is kept False]
+	  (If it's made True, user need to also give orbitals to remove i.e. 
+	  understanding of the system)
+
+	- "encoding" in Fermionic-Qubit mapper [default is JordanWignerMapper]
+
+	- "optimizer" in minimization [default is kept "COBYLA"]
+
+	- "maxiter" in minimization [default is kept 1000]
+
+
+
+
