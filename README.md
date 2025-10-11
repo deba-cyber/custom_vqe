@@ -12,7 +12,8 @@ Activate your virtual environment: source bin/activate
 
 Install : poetry install
 
-To run tests, for example in ansatz folder, run poetry run pytest tests/
+To run tests, for example in ansatz folder, 
+poetry run pytest tests/
 
 ## Support
 Currently, please email deba.bhat.90@gmail.com or debabratab@alum.iisc.ac.in for queries. In future, documentation will be released.
